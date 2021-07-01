@@ -1,6 +1,8 @@
 # DRL-PID
 # 基于深度强化学习的自适应PID控制器方法（应用于智能车循迹任务）
 
+summit_description 为该工程包括的ros包，包括了智能车模型和gazebo环境模型；my_ground_plane 为跑道的模型信息，需要放在.gazebo/models下；
+
 工程复现步骤：
 1. 运行智能车ROS节点：roslaunch summit_description summit.launch 
 2. 运行 env_feedback.py (此Python脚本用于摄像头检测轨迹信息)
