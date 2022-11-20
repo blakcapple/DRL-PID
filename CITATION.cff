@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Ruan"
+  given-names: "Yudi"
+  orcid: "https://orcid.org/0000-0001-8101-0697"
+title: "DRL-PID"
+version: 1.0
+doi: 10.5281/zenodo.7338823
+date-released: 2021.6.7
+url: "https://github.com/blakcapple/DRL-PID.git"
