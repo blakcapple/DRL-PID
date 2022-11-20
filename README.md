@@ -50,8 +50,6 @@ Finally, GAZEBO subscribes to the **cmd_vel** topic to visualize the motion of t
 
 **summit_description** contains the ROS package needed in this project, install this in your own ROS workspace first and add it to ROS path. 
 
-My_ground
-
 **launch the environment**
 
 ```
@@ -78,25 +76,20 @@ python main.py
 
 **my_ground_plane**
 
-the path model used in the project, put this into the .gazebo/model folder. You can change the model by replacing the **MyImage.png** in the /materials/textures
+the path model used in the project, put this into the .gazebo/model folder. You can change the map by replacing the **MyImage.png** in the /materials/textures
 
 **summit description**
 
-* urdf/ basic urdf description 
-* robot/ robot description file 
-* msg/ message needed in ROS communications
-* srv/ service needed in ROS communications
-* Maps/ different map in the gazebo world (one can add new world here)
-* launch/ launch file 
+* contain robot description, necessary ros message, ros service file and launch file 
 
 **DRL-PID** 
 
-* main.py for training model
-* model_testing.py for evaluating model 
-* sac_torch.py  the SAC algorithm
-* network.py the network file
-* env_feedback.py the env processing file 
-* line_follower.py the environment 
+* main.py : main file for training  
+* model_testing.py : test trained model 
+* sac_torch.py : SAC algorithm
+* network.py: network definition 
+* env_feedback.py: the env pre-process file 
+* line_follower.py: the environment definition 
 
 ## Experiment
 
