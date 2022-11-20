@@ -14,11 +14,11 @@ Specifically, this project is using DRL-PID framework in the **auto driving scen
 
 #### Overview
 
-The training framework (implement in the simulation environment): 
+The training framework: 
 
 ![image](https://raw.githubusercontent.com/blakcapple/DRL-PID/main/Image/framework.png)
 
-The execution framework (implement in the real robot):
+The execution framework:
 
 ![image](https://raw.githubusercontent.com/blakcapple/DRL-PID/main/Image/structure.png)
 
